@@ -1,0 +1,58 @@
+.navbar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("navbackgr.png");
+    overflow-x: hidden;
+    padding: 20px;
+}
+.navbar img {
+    width: 160px;
+    padding: 0 20px;
+}
+.navbar a {
+    color: white;
+    padding-left: 55px;
+}
+.navbar a:hover{
+    color: red;
+}
+.searchmod {
+    line-height: 0px;
+    padding: 20px;
+}
+.searchmod p{
+    padding-left:25px;
+    color: white
+}
+.searchmod input {
+    width: 140px;
+    border: 4px inset;
+}
+.btn {
+    margin: 10px 35px;
+    background-color: black;
+    border: 3px outset gray;
+    color: white;
+}
+.links a {
+    line-height: 1.5;
+    padding-left: 0;
+}
+.main{
+    margin-left:250px;
+}
+.main img {
+    width:500px;
+    position: relative;
+    left: 2%;
+}
+.main p {
+    font-family: 'Calibri';
+    font-size:20px;
+    margin-left: auto;
+    margin-right: 10%;
+}

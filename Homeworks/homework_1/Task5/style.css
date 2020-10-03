@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+}
+input{
+    position:sticky;
+    margin: 5px;
+    left: 130px;
+}
+select{
+    position:sticky;
+    margin: 5px;
+    left: 130px;
+}

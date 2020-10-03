@@ -1,0 +1,12 @@
+body {
+    font-family: 'Calibri';
+}
+.headers {
+    text-align: center;
+    line-height: 0.3;
+    font-size: 20px;
+}
+.contents {
+    margin: 50px;
+    font-size: 20px;
+}
