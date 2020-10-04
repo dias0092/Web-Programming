@@ -1,0 +1,251 @@
+*,
+*::before
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 10px;
+   box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fafafa;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:10rem;
+}
+.container{
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+}
+#wrapper > .container{
+    display: flex;
+    padding: 0 8rem;
+}
+.phone-app{
+    height: 61.8rem;
+    background: url(images/phone.png) center no-repeat;
+    flex: 1;
+}
+.fling-minislide {
+    width:240px; 
+    height:450px; 
+    overflow:hidden; 
+    position:relative;
+    left: 217px; 
+    top:99px;
+}
+.fling-minislide img{ 
+    position:absolute; 
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+    
+}
+
+@keyframes fling-minislide {
+    25%{opacity:1;} 40%{opacity:0;}
+}
+.fling-minislide img:nth-child(4){
+    animation-delay:0s;
+}
+.fling-minislide img:nth-child(3){
+    animation-delay:5s;}
+.fling-minislide img:nth-child(2){
+    animation-delay:10s;
+}
+.fling-minislide img:nth-child(1){
+    animation-delay:15s;
+}
+.from-data{
+    width: 100%;
+    max-width: 35rem;
+    margin-top: 3rem;
+}
+.from-data form{
+    background-color: #fff;
+    border:2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.logo img{
+    width: 17,5rem;
+    margin-bottom: 2.5rem;
+}
+.from-data form input{
+    padding: 0.8rem;
+ margin-bottom: 0.5rem;
+ border:2px solid #eee;
+ border-radius: 0.4rem;
+}
+.btn{
+    margin:1rem 0 1.5rem;
+    height: 3rem;
+    background-color: #3297f0;
+    font-size:1.4rem;
+    color:#fff;
+    font-weight: bold;
+    border:none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.separator{
+    font-size: 1.3rem;
+    color:#999999;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.separator::before,
+.separator::after{
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    width: 40%;
+    height: 1px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.separator::before{
+    left: 0;
+}
+.separator::after{
+    right:0;
+}
+.facebook-login{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:#385185;
+    margin-bottom:2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.facebook-login i{
+    font-size: 2rem;
+    margin-right: 0.7rem;
+}
+.password-reset{
+    font-size: 1.2rem;
+    color:#003569;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-up{
+    text-align: center;
+    font-size: 1.4rem;
+    color:#262626;
+    padding: 2rem 0;
+    background-color: #fff;
+    border:2px solid #eee;
+    margin:1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sigin-up a{
+    color:#3897f0;
+    font-weight: bold;
+}
+.get-the-app{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.get-the-app span{
+    display: block;
+    margin:2rem 0;
+    color:#262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.badges{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.badges img{
+    max-width: 14rem;
+    cursor:pointer;
+}
+.badges img:first-child{
+    margin-right: 1rem;
+}
+footer{
+    padding: 5rem 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    
+}
+.footer-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.footer-nav ul li{
+    margin-right: 1.6rem;
+}
+.footer-nav ul li a{
+    color:rgba(var(--fe0,0,55,107),1);
+}
+.copyright-notice{
+    color: #999999;
+}
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 18px;
+    text-align: right;
+    text-decoration: none;
+    margin: 1x 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+@media(max-width: 900px){
+    .phone-app{
+        display:none;
+    }
+    .from-data{
+        margin: 0 auto;
+    }
+    #wrapper > .container{
+        padding:0;
+    }
+    footer .container{
+        padding: 0 2rem;
+        justify-content: center;
+    }
+    .footer-nav ul{
+        justify-content: center;
+    }
+    .footer-nav ul li{
+        margin-bottom: 1rem;
+    }
+}
+
