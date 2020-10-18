@@ -1,0 +1,39 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+html{
+    background-color: #ece8e1;
+}
+
+.content {
+    display: flex;
+    margin: 100px;
+    font-family: sans-serif;
+}
+
+#area {
+    width: 624px;
+    border: 4px solid #0f1923;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 104px;
+    border: 4px solid #0f1923;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: #e44956;
+}
+
+
