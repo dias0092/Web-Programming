@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+color: #212F3D;
+margin-bottom: 50px;
+}
+
+.wrapper{
+    margin: 0 20vw;
+}
+
+#index-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+    "img1 img2 img4 img7"
+    "img6 img6 img6 img7"
+    "img9 img8 img10 img11"
+    "img9 img3 img12 img13"
+    "img14 img15 img16 img13" ;
+
+}
+
+.gallery-img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.img1{
+    grid-area: img1;
+    background-image: url(img/1.jpg);
+}
+.img2{
+    grid-area: img2;
+    background-image: url(img/2.jpg);
+}
+.img3{
+    grid-area: img3;
+    background-image: url(img/3.jpg);
+}
+.img4{
+    grid-area: img4;
+    background-image: url(img/4.png);
+}
+
+.img5{
+    grid-area: img5;
+    background-image: url(img/5.jpg);
+}
+.img6{
+    grid-area: img6;
+    background-image: url(img/6.jpg);
+    width: 831px;
+}
+.img7{
+    grid-area: img7;
+    background-image: url(img/7.jpg);
+    height: 618px;
+}
+.img8{
+    grid-area: img8;
+    background-image: url(img/8.jpg);
+}
+.img9{
+    grid-area: img9;
+    background-image: url(img/9.jpg);
+    height: 618px;
+}
+.img10{
+    grid-area: img10;
+    background-image: url(img/10.jpg);
+}
+.img11{
+    grid-area: img11;
+    background-image: url(img/11.jpg);
+}
+.img12{
+    grid-area: img12;
+    background-image: url(img/12.jpg);
+}
+.img13{
+    grid-area: img13;
+    background-image: url(img/13.jpg);
+    height: 618px;
+}
+.img14{
+    grid-area: img14;
+    background-image: url(img/14.jpg);
+}
+.img15{
+    grid-area: img15;
+    background-image: url(img/15.jpg);
+}
+.img16{
+    grid-area: img16;
+    background-image: url(img/16.jpg);
+}
+
+
+
+.img-window{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.8);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.img-window img{
+    max-height: 80vh;
+    max-width: 80vw;
+
+}
