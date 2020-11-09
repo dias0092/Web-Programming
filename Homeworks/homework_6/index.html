@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Homework 6</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="task">
+            <h1 class="title">Task 1</h1>
+            <div class="row">
+                <div class="text">1st number: </div>
+                <input id="1st" type="text">
+            </div>
+            <div class="row">
+                <div class="text">2nd number: </div>
+                <input id="2nd" type="text">
+            </div>
+            <div class="row">
+                <button class="button" onclick="multiply()">Multiply</button>
+                <button class="button" onclick="divide()">Divide</button>
+                <br>
+            </div>
+            <div class="row">
+                <div class="text">The result is:</div>
+                <p id="result"></p>
+            </div>
+        </div>
+
+        <div class="task" style="max-width: 500px;">
+            <h1 class="title">Task 2</h1>
+            <div class="row">
+                <div class="text">Enter value in Celsius:</div>
+                <input id="celsius" type="text">
+            </div>
+            <div class="row">
+                <div class="text">Enter value in Fahrenheit:</div>
+                <input id="fahrenheit" type="text">
+            </div>
+            <div class="row">
+                <button class="button" onclick="Far()">Convert To Far</button>
+                <button class="button" onclick="Cel()">Convert To Cel</button>
+                <br>
+            </div>
+            <div class="text"><span id="1stC">60</span>°C is <span id="2ndF">140</span>°F</div>
+            <div class="text"><span id="1stF">45</span>°F is <span id="2ndC">7.222</span>°C</div>
+        </div>
+
+        <div class="task">
+            <h1 class="title">Task 3</h1>
+            <h3 class="suptitle">Input radius value and get the volume of the sphere.</h3>
+            <div class="row">
+                <div class="text">Radius: </div>
+                <input id="radius" type="text">
+            </div>
+            <div class="row">
+                <div class="text">Volume</div>
+                <input id="volume" type="text">
+            </div> 
+            <button class="button" type="text" onclick="calculate()">Calculate</button>
+        </div>
+
+        <div class="task">
+            <h1 class="title">Task 4</h1>
+            <div class="row">
+                <div class="text">Number: </div>
+                <input id="number" type="text">
+            </div>
+            <button class="button" type="text" onclick="reverse()" style="margin-bottom: 10px;">Reverse</button>
+            <p id="reversed"></p>
+        </div>
+
+        <div class="task">
+            <h1 class="title">Task 5</h1>
+            <canvas id="canvasRect" style="margin-left: 106px;" ></canvas>
+            <button class="button" onclick="drawRect()">Draw!</button>
+        </div>
+
+        <div class="task">
+            <h1 class="title">Task 6</h1>
+            <canvas id="canvasCircle" ></canvas>
+            <button class="button" onclick="drawCircle()">Draw!</button>
+        </div>
+
+        <div class="task">
+            <h1 class="title">Task 7</h1>
+            <canvas id="canvas" height="325px"></canvas>
+            <button class="button" onclick="draw()">Draw!</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
