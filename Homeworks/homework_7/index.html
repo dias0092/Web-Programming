@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homework 7</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="section">
+            <input type="date" id="endDate">
+        <table class="container">
+            <tr class="info">
+                <td id="days"></td>
+                <td id="hours"></td>
+                <td id="min"></td>
+                <td id="sec"></td>
+            </tr>
+            <tr>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+        </div>
+
+
+        <div class="section">
+            <h1 class="title">Word Counter</h1>
+            <textarea id="input" placeholder="Enter your text here:"></textarea>
+            <div class="stats">
+                <div class="stats_inner">
+                    <p>Characters: <span id="ch">0</span></p>
+                </div>
+
+                <div class="stats_inner">
+                    <p>Words: <span id="wr">0</span></p>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stats_inner">
+                    <p>Sentences: <span id="sen">0</span></p>
+                </div>
+
+                <div class="stats_inner">
+                    <p>Paragraphs: <span id="ph">0</span></p>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stats_inner">
+                    <p>Reading time: <span id="time">0</span></p>
+                </div>
+            </div>
+            <div class="top_keywords">
+                <p>Top keywords:</p>
+                <ul id="topKeywords">
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
