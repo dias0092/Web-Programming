@@ -1,0 +1,42 @@
+var quizData = [
+    {
+        "question": "What does HTML stand for?",
+        "a": "Hyperlinks and Text Markup Language",
+        "b": "Hyper Text Markup Language",
+        "c": "Home Tool Markup Language",
+        "d": "High Tree Medium Leaf",
+        "correct": "b"
+    },
+    {
+        "question": "What does CSS stand for?",
+        "a": "Common Style Sheet",
+        "b": "Colorful Style Sheet",
+        "c": "Computer Style Sheet",
+        "d": "Cascading Style Sheet",
+        "correct": "d"
+    },
+    {
+        "question": "What does PHP stand for?",
+        "a": "Hypertext Preprogramming",
+        "b": "Hypertext Preprocessor",
+        "c": "Hypertext Programming",
+        "d": "Hometext Preprocessor",
+        "correct": "b"
+    },
+    {
+        "question": "What does XML stand for?",
+        "a": "eXecutable Multiple Language",
+        "b": "eXtensible Markup Language",
+        "c": "eXTra Multi-Program Language",
+        "d": "eXamine Multiple Language",
+        "correct": "b"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "a": "Structured Query Language",
+        "b": "Stylish Question Language",
+        "c": "Stylesheet Query Language",
+        "d": "Statement Question Language",
+        "correct": "a"
+    }
+];
