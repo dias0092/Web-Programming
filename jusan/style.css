@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: #21212b;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 560px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin: 12px 440px 12px 440px;
+    margin-bottom: 24px;
+    box-shadow:30px, rgba(0, 0, 0, 0.01);
+    
+}
+
+.jLog{
+    margin:26px auto;
+}
+
+
+.info h1{
+    font-size:32px;
+    line-height:36px ;
+    letter-spacing:  0.02em;
+    padding:33px 42px 8px 43px ;
+    color: #0C1014;
+}
+.info h2{
+    font-size:32px;
+    line-height:36px ;
+    letter-spacing:  0.02em;
+    color: #FF5400;
+}
+.info p{
+    color: #515759;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px 34px 24px 36px;
+}
+.google{
+    margin-right:15px ;
+}
+.social{
+
+    text-align: left;
+    margin: 23px 32px 8px 33px;
+}
+.social h1{
+    color: #0C1014;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    
+    padding: 23px 0px 8px 0px;
+}
+.social p {
+    color: #515759;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 18px;
+
+}
+.social a {
+    color: #FE5000;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    text-decoration: none;
+}
